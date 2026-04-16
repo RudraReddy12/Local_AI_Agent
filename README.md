@@ -4,15 +4,15 @@ An intelligent **Voice-Based Local AI Agent** that can understand user commands 
 
 ---
 
-## 🚀 Features
+##  Features
 
-* 🎤 **Voice Input Support** (Record or Upload Audio)
-* 🧠 **Speech-to-Text using Whisper**
-* 🤖 **Intent Detection using LLM**
-* 🛠️ **Local Task Execution Engine**
-* 📂 **Safe File Handling in `output/` Directory**
-* 💻 **Code Generation & Auto-Saving**
-* 📊 **Streamlit Interactive UI**
+*  **Voice Input Support** (Record or Upload Audio)
+*  **Speech-to-Text using Whisper**
+*  **Intent Detection using LLM**
+*  **Local Task Execution Engine**
+*  **Safe File Handling in `output/` Directory**
+*  **Code Generation & Auto-Saving**
+*  **Streamlit Interactive UI**
 
 ---
 
@@ -59,17 +59,17 @@ Output (Saved in /output folder + UI Display)
 
 ---
 
-## 🛡️ Safety Design
+##  Safety Design
 
 To prevent accidental system modifications:
 
 * ✅ All generated files are restricted to the `output/` directory
 * ❌ No direct access to system-critical paths
-* 🔒 Controlled execution environment
+*  Controlled execution environment
 
 ---
 
-## 🎯 Usage
+##  Usage
 
 1. Open the Streamlit UI
 2. Choose input method:
@@ -88,38 +88,18 @@ To prevent accidental system modifications:
 
 ---
 
-## 🧠 Example Commands
+##  Example Commands
 
-* 🗂️ "Create a folder and add a file"
-* 💻 "Generate Python code for binary search"
-* 📝 "Summarize this paragraph"
-
----
-
-## ⚠️ Hardware / Environment Notes
-
-* Whisper models may require:
-
-  * Good CPU performance OR GPU (optional)
-* If facing performance issues:
-
-  * Use smaller Whisper models (`base`, `small`)
-* Microphone permissions must be enabled for recording
+*  "Create a folder and add a file"
+*  "Generate Python code for binary search"
+*  "Summarize this paragraph"
 
 ---
+##  Future Improvements
 
-## 🐛 Common Issues & Fixes
-
-### UnicodeEncodeError
-
-✔ Fixed by using UTF-8 encoding while writing files
----
-
-## 📌 Future Improvements
-
-* 🔄 Real-time voice streaming
-* 🧩 Plugin-based tool system
-* 🌐 Web automation support
-* 📱 Mobile-friendly UI
+*  Real-time voice streaming
+*  Plugin-based tool system
+*  Web automation support
+*  Mobile-friendly UI
 
 ---
